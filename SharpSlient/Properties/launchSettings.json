@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "SharpSlient": {
+      "commandName": "Project",
+      "nativeDebugging": false
+    }
+  }
+}

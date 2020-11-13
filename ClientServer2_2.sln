@@ -1,0 +1,69 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30621.155
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Server", "Server\Server.vcxproj", "{1BD01EED-39D9-4C74-89DB-66666D596050}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SerializeLib", "SerializeLib\SerializeLib.vcxproj", "{DF8B2531-1C7F-453B-965B-489DF3AF379C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SharpSlient", "SharpSlient\SharpSlient.csproj", "{6AA5D433-6F47-4C39-950E-39AD58F7362B}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "PythonClient", "PythonClient\PythonClient.pyproj", "{78813F58-D880-4B76-A7E2-81B90E65441D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1BD01EED-39D9-4C74-89DB-66666D596050}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{1BD01EED-39D9-4C74-89DB-66666D596050}.Debug|x64.ActiveCfg = Debug|x64
+		{1BD01EED-39D9-4C74-89DB-66666D596050}.Debug|x64.Build.0 = Debug|x64
+		{1BD01EED-39D9-4C74-89DB-66666D596050}.Debug|x86.ActiveCfg = Debug|Win32
+		{1BD01EED-39D9-4C74-89DB-66666D596050}.Debug|x86.Build.0 = Debug|Win32
+		{1BD01EED-39D9-4C74-89DB-66666D596050}.Release|Any CPU.ActiveCfg = Release|Win32
+		{1BD01EED-39D9-4C74-89DB-66666D596050}.Release|x64.ActiveCfg = Release|x64
+		{1BD01EED-39D9-4C74-89DB-66666D596050}.Release|x64.Build.0 = Release|x64
+		{1BD01EED-39D9-4C74-89DB-66666D596050}.Release|x86.ActiveCfg = Release|Win32
+		{1BD01EED-39D9-4C74-89DB-66666D596050}.Release|x86.Build.0 = Release|Win32
+		{DF8B2531-1C7F-453B-965B-489DF3AF379C}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{DF8B2531-1C7F-453B-965B-489DF3AF379C}.Debug|x64.ActiveCfg = Debug|x64
+		{DF8B2531-1C7F-453B-965B-489DF3AF379C}.Debug|x64.Build.0 = Debug|x64
+		{DF8B2531-1C7F-453B-965B-489DF3AF379C}.Debug|x86.ActiveCfg = Debug|Win32
+		{DF8B2531-1C7F-453B-965B-489DF3AF379C}.Debug|x86.Build.0 = Debug|Win32
+		{DF8B2531-1C7F-453B-965B-489DF3AF379C}.Release|Any CPU.ActiveCfg = Release|Win32
+		{DF8B2531-1C7F-453B-965B-489DF3AF379C}.Release|x64.ActiveCfg = Release|x64
+		{DF8B2531-1C7F-453B-965B-489DF3AF379C}.Release|x64.Build.0 = Release|x64
+		{DF8B2531-1C7F-453B-965B-489DF3AF379C}.Release|x86.ActiveCfg = Release|Win32
+		{DF8B2531-1C7F-453B-965B-489DF3AF379C}.Release|x86.Build.0 = Release|Win32
+		{6AA5D433-6F47-4C39-950E-39AD58F7362B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6AA5D433-6F47-4C39-950E-39AD58F7362B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6AA5D433-6F47-4C39-950E-39AD58F7362B}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{6AA5D433-6F47-4C39-950E-39AD58F7362B}.Debug|x64.Build.0 = Debug|Any CPU
+		{6AA5D433-6F47-4C39-950E-39AD58F7362B}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{6AA5D433-6F47-4C39-950E-39AD58F7362B}.Debug|x86.Build.0 = Debug|Any CPU
+		{6AA5D433-6F47-4C39-950E-39AD58F7362B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6AA5D433-6F47-4C39-950E-39AD58F7362B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6AA5D433-6F47-4C39-950E-39AD58F7362B}.Release|x64.ActiveCfg = Release|Any CPU
+		{6AA5D433-6F47-4C39-950E-39AD58F7362B}.Release|x64.Build.0 = Release|Any CPU
+		{6AA5D433-6F47-4C39-950E-39AD58F7362B}.Release|x86.ActiveCfg = Release|Any CPU
+		{6AA5D433-6F47-4C39-950E-39AD58F7362B}.Release|x86.Build.0 = Release|Any CPU
+		{78813F58-D880-4B76-A7E2-81B90E65441D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78813F58-D880-4B76-A7E2-81B90E65441D}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{78813F58-D880-4B76-A7E2-81B90E65441D}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{78813F58-D880-4B76-A7E2-81B90E65441D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78813F58-D880-4B76-A7E2-81B90E65441D}.Release|x64.ActiveCfg = Release|Any CPU
+		{78813F58-D880-4B76-A7E2-81B90E65441D}.Release|x86.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AF98A881-09E8-418F-B6D2-D2FEF45F52DF}
+	EndGlobalSection
+EndGlobal
