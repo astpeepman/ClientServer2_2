@@ -24,11 +24,11 @@ map<string, User> Users;
 void TimeOut() {
     while (true)
     {
-        for (auto i : Users) {
-            double workTime = clock() - i.second.GetActiveTime();
-            if (workTime > 150000 && i.second.GetStatus() == true) {
-                cout << "Client " << i.first << " has been disconnected due to long inactivity" << endl;
-                i.second.InActive();
+        for (auto i = begin(Users); i != end(Users); ++i) {
+            double workTime = clock() - i->second.GetActiveTime();
+            if (workTime > 150000 && i->second.GetStatus() == true) {
+                cout << "Client " << i->first << " has been disconnected due to long inactivity" << endl;
+                i->second.InActive();
             }
         }
         Sleep(1000);
